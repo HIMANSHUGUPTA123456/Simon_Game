@@ -184,7 +184,7 @@ document.getElementById("blue").addEventListener("click", function () {
     playButton(this);
     i++;
   }
-  if ((i === arr.length) & (check == 0)) {
+  if ((i === arr.length) && (check == 0)) {
     i=0;
     setTimeout(() => {
       randomNumber = Math.floor(Math.random() * 4 + 1);
